@@ -50,6 +50,8 @@ public class METestManager {
 		testList.add(new MapBoxLandcoverTest());
 		testList.add(new MapQuestTest());
 		
+        testList.add(new BitmapTileTest("Bitmap Tile Test (fails on Lollipop)"));
+
 		//testList.add(new VectorWorldMapTest("World Vector", getMapPath("NewVector","WorldVector"), Locations.USBounds, this));
 		testList.add(new LocationAPITest("Location API"));
 		testList.add(new VectorWorldMapTest("Vector Streets", getMapPath("NewVector","World_Style2"), Locations.HoustonBounds, this));
